@@ -193,11 +193,9 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  height: 70px;
   padding: 0;
   background: var(--white);
   box-shadow: var(--shadow-sm);
-  overflow: visible;
   transition: box-shadow var(--transition);
 }
 
@@ -209,7 +207,6 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
-  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -221,7 +218,7 @@ section {
 }
 
 .nav-logo-img {
-  height: 220px;
+  height: 90px;
   width: auto;
   display: block;
 }
