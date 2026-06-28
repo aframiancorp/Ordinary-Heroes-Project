@@ -1,5 +1,5 @@
 /* ============================================================
-   THE ORDINARY HEROES PROJECT â€” style.css
+   THE ORDINARY HEROES PROJECT — style.css
    Palette: #C8102E (Red), #0A2A5E (Navy), #FFFFFF, #F7F8FA, #E8A020 (Gold)
    ============================================================ */
 
@@ -577,6 +577,7 @@ section {
 .mission {
   position: relative;
   padding: 120px 0;
+  overflow: hidden;
 }
 
 .mission-bg {
