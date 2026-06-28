@@ -1,5 +1,5 @@
 /* ============================================================
-   THE ORDINARY HEROES PROJECT — style.css
+   THE ORDINARY HEROES PROJECT â€” style.css
    Palette: #C8102E (Red), #0A2A5E (Navy), #FFFFFF, #F7F8FA, #E8A020 (Gold)
    ============================================================ */
 
@@ -193,14 +193,15 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 4px 0;
+  height: 70px;
+  padding: 0;
   background: var(--white);
   box-shadow: var(--shadow-sm);
-  transition: padding var(--transition), box-shadow var(--transition);
+  overflow: visible;
+  transition: box-shadow var(--transition);
 }
 
 .navbar.scrolled {
-  padding: 4px 0;
   box-shadow: 0 4px 16px rgba(10,42,94,0.12);
 }
 
@@ -208,6 +209,7 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
